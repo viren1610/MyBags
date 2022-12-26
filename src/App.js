@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import {  Button, ThemeProvider } from '@mui/material';
+import { Container } from '@mui/system';
+import { useEffect } from 'react';
+import theme from './Styles/theme';
+import Appbarfn from './Components/AppBar';
 
 function App() {
+useEffect (()=>{
+document.title="Home"
+},[])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+    <Container maxWidth="xl" sx={{background:"#fff"}}>
+      <Appbarfn/>
+
+
+
+
+
+    <Button variant='contained' size='large'>Text</Button>
+    </Container>
+
+    </ThemeProvider>
+   
+
+
   );
 }
 
