@@ -36,5 +36,5 @@ palette:{
     },
 }
 
-})
+});
 export default theme;

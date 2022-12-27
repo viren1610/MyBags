@@ -7,7 +7,7 @@ export const AppbarContainer =styled(Box)(({})=>({
     display:"flex",
     alignItem:"center",
     justifyContent:"center",
-    padding:"2px 8px"
+    padding:"1px 2px"
 }))
 
 export const AppbarHeader=styled(Typography)(({})=>({
