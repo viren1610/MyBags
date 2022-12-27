@@ -13,7 +13,7 @@ return(
     </IconButton>
         
     <AppbarHeader textAlign={'center' } variant='h4'>Mybags</AppbarHeader>
-    <IconButton sx={{justifyContent:"center"}}>
+    <IconButton >
         <SearchIcon/>
     </IconButton>
 

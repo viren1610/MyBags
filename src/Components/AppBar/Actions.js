@@ -18,7 +18,9 @@ return(
 
 
 
-    <ButtonGroup>
+    
+<MyList type="row">
+
 
     <ListItemButton sx={{justifyContent:'center'}}>
         <ListItemIcon sx={{justifyContent:'center'}}>
@@ -39,7 +41,8 @@ return(
             <PersonIcon/>
         </ListItemIcon>
     </ListItemButton>
-    </ButtonGroup>
+</MyList>
+   
     
 
 
