@@ -25,8 +25,8 @@ export default function AppBarDesktop({matches}){
              <SearchIcon/>
             </ListItemIcon>
             </ListItemButton>
-        </MyList>
             <Actions/>
+        </MyList>
            
             
         
