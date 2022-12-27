@@ -7,7 +7,7 @@ export const AppbarContainer =styled(Box)(({})=>({
     display:"flex",
     alignItem:"center",
     justifyContent:"center",
-    padding:"1px 2px"
+    padding:"2px 8px"
 }))
 
 export const AppbarHeader=styled(Typography)(({})=>({
@@ -22,4 +22,21 @@ display:type==='row'?'flex':'block',
 alignItems:'center',
 justifyContent:'center',
 flexGrow:2,
+}))
+
+export const ActionIconsConatinerMobile=styled(Box)(()=>({
+    display:"flex",
+    backgroundColor:Colors.dim_grey,
+    position:"fixed",
+    bottom:0,
+    left:0,
+    width:"100%",
+    alignItems:'center',
+    zIndex:99,
+    borderTop: "1px solid"
+}))
+
+export const ActionIconsConatinerDesktop=styled(Box)(()=>({
+    flexGrow:0
+
 }))

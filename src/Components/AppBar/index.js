@@ -11,7 +11,7 @@ import AppbarMobile from "./AppbarMobile";
 
     return(
         <>
-        {matches ? <AppbarMobile/> : <AppBarDesktop/>}
+        {matches ? (<AppbarMobile  matches={matches}/>):( <AppBarDesktop  matches={matches}/>)}
         </>
     );
 }
